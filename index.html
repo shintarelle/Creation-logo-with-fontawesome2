@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Splash&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicon//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Creation logo with fontawesome</title>
+    <meta name="description" content="Creation logo with fontawesome" />
+    <meta name="keywords" content="logo, font awesome, instagramm" />
+
+    <meta name="og:url" content="#" />
+    <meta name="og:title" content="Creation logo with fontawesome" />
+    <meta name="og:description" content="Creation logo with fontawesome" />
+    <meta name="og:type" content="website" />
+    <meta name="og:image" content="./image/instagram.jpeg" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="400" />
+    <meta property="og:image:alt" content="logo" />
+
+    <style>
+        * {margin: 0; padding: 0;}
+        body {font-family: 'Splash', cursive; background-color: aliceblue;}
+        main {min-height: 100vh; background: url(./image/Blue_sky.jpeg) bottom left/cover no-repeat;}
+        .container {padding: 15px 0; max-width: 840px; margin: 0 auto;}
+        h1 {font-size: 40px; text-align: center; margin-bottom: 50px;}
+
+        .logotype {
+            display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between;}
+        .logotype__bg {width: 200px; height: 200px; }
+
+        .facebook__bg {
+            border-radius: 50%;
+            background: -o-radial-gradient(top left, farthest-side ellipse, #d8e1f9, #022880); background: radial-gradient(farthest-side ellipse at top left, #d8e1f9, #022880);
+            -webkit-box-shadow: 5px 10px 20px rgba(3, 40, 128, 0.8), -5px -10px 20px rgba(172, 203, 250, 0.8);
+            box-shadow: 5px 10px 20px rgba(3, 40, 128, 0.8), -5px -10px 20px rgba(172, 203, 250, 0.8);}
+        .facebook__bg:hover {-webkit-filter: opacity(30%);filter: opacity(30%);}
+        .instagram__bg {
+            background: -o-radial-gradient(60% 49%, #f6ce7c, #ff9d67, #ff6775, #df238d 70%, #8814bf 95%);
+            background: radial-gradient(60% 49%, #f6ce7c, #ff9d67, #ff6775, #df238d 70%, #8814bf 95%);
+            background-position: top -10px left 210px; background-size: 130% 200%; border-radius: 50px;}
+
+        .twitter__bg {
+            background: #25b2e0; border-radius: 50%;
+            display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;
+            -webkit-filter: blur(3px); filter: blur(3px);}
+        .twitter__bg:hover {-webkit-filter: none;filter: none;}
+        .twitter__bg::after {
+            content: ''; width: 200px; height: 200px; border-radius: 50%;
+            background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, rgba(168, 167, 167, 0.2)), color-stop(50%, rgba(168, 167, 167, 0.0)));
+            background: -o-linear-gradient(bottom right, rgba(168, 167, 167, 0.2) 50%, rgba(168, 167, 167, 0.0) 50%);
+            background: linear-gradient(to top left, rgba(168, 167, 167, 0.2) 50%, rgba(168, 167, 167, 0.0) 50%);
+            position: absolute;}
+
+        .twitter__bg-gray {
+            width: 160px; height: 160px; background: #d8d8d8; border-radius: 50%; margin: 20px;
+            display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;}
+        .twitter__bg-white {width: 130px; height: 130px; background: #fff; border-radius: 50%; position: relative;}
+
+        .icon {color: #fff;  width: 200px; height: 200px; text-align: center;}
+        .facebook-icon {padding: 30px 0 0 0;}
+        .instagram-icon { padding: 11px 0 0 0;}
+        .twitter-icon {color: #25b2e0; position: absolute; top: 20%; left: 20%;}
+        .facebook-icon::before {font-size: 140px;}
+        .instagram-icon::before {font-size: 180px;}
+        .twitter-icon::before {font-size: 80px;}
+    </style>
+
+    <script src="https://kit.fontawesome.com/d5f7cf20ca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>Creation logo with fontawesome</h1>
+            <div class="logotype">
+                <div class="logotype__bg facebook__bg">
+                    <i class="fa-brands fa-facebook-f icon facebook-icon "></i>
+                </div>
+                <div class="logotype__bg instagram__bg">
+                    <i class="fa-brands fa-instagram icon instagram-icon"></i>
+                </div>
+                <div class="logotype__bg twitter__bg">
+                    <div class="twitter__bg-gray">
+                        <div class="twitter__bg-white">
+                            <i class="fa-brands fa-twitter twitter-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
